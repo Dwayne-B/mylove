@@ -30,7 +30,7 @@ body {
   padding: 0;
   background: #0b0b10;
   font-family: system-ui, sans-serif;
-  overflow: hidden;
+  /* overflow: hidden; */
   -webkit-font-smoothing: antialiased;
   -webkit-overflow-scrolling: touch;
   background: hsla(285, 21%, 15%, 1);
@@ -55,6 +55,7 @@ filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#2B1F2F", en
   gap: 2rem;
   box-sizing: border-box;
   perspective: 1px; /* smooth 3d transforms */
+  min-height: -webkit-fill-available;
 }
 
 .column {
@@ -321,6 +322,7 @@ window.addEventListener("resize",()=>{
 </script>
 </body>
 </html>
+
 
 
 
